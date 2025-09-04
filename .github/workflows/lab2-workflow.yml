@@ -15,7 +15,7 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Exploring Workflow Dispatch Trigger"
+      - run: echo ${{ inputs.run_job }}
   job2:
     runs-on: ubuntu-latest
     steps:
